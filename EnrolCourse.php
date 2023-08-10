@@ -50,10 +50,10 @@ echo "<h1>Course You have Enrolled </h1>";
    <?php
 
        
-       if($_SESSION["error"]){
-        echo '<script>alert(\"".$_SESSION["error"]."\")</script>';
+      //  if($_SESSION["error"]){
+      //   echo '<script>alert(\"".$_SESSION["error"]."\")</script>';
 
-       }
+      //  }
        $sql = "SELECT * FROM available_course ;";
        if($result =mysqli_query($conn,$sql)){
          if(mysqli_num_rows($result) > 0){
