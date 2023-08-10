@@ -12,7 +12,7 @@
     <div class="container form">
       <!-- <div style="font-size: 1.5em"> -->
         <h2>REGISTRATION</h2><br><br>
-      <form action="index.php" method="get">
+      <form action="index.php" method="post">
         <input name= "name" type="text" class="field" placeholder="ENTER YOUR NAME" /> <br /><br>
        <input name = "email" type="email" class="field" placeholder="ENTER YOUR EMAIL" > <br><br>
        <input type="password" name="password" id="password " class="field" placeholder="ENTER YOUR PASSWORD" /><br>
