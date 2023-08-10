@@ -2,13 +2,14 @@
 include("./dbms_connect.php");
 
 if(isset($_POST["Login"])){
+  if (!empty($_POST['email']) && !empty($_POST['password'])) {
     $email = $_POST["email"];
     $input_password = $_POST["password"];
     $sql = "Select * FROM student WHERE student_email=\"".$email."\"";
     
     if($result = mysqli_query($conn,$sql)){
       if(mysqli_num_rows($result)==0){
-        echo "No user";
+        alert_box("No Such User Found");
       }
         if(mysqli_num_rows($result) > 0){
             while($row = mysqli_fetch_array($result)){
@@ -27,7 +28,11 @@ if(isset($_POST["Login"])){
     }
     else{
         alert_box(mysqli_error($conn));
+
     }
+  }else{
+    alert_box("Fill all fields");
+  }
 }
 ?> 
 
@@ -48,7 +53,7 @@ if(isset($_POST["Login"])){
 
       <!-- <div style="font-size: 1.5em"> -->
       <form action="login.php" method="post"><br><br>
-         <input name = "email" type="text" class="field_log" placeholder="ENTER YOUR EMAIL"> <br><br>
+         <input name = "email" type="email" class="field_log" placeholder="ENTER YOUR EMAIL"> <br><br>
          <input type="password" name="password" id="password "class="field_log"  placeholder="ENTER YOUR PASSWORD" /> <br>
         <input type="submit" value="Login" name="Login" class="button5 button5_log">
       </form>
