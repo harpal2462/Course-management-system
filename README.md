@@ -12,28 +12,28 @@ Developed a comprehensive Course Management System utilizing HTML, CSS, and PHP.
 
 ## Index.html
 
-![image](https://user-images.githubusercontent.com/45972990/147565005-7413c140-2e9f-4dfc-bf51-ea209854c1cc.png)
+![h1](https://github.com/sonu2462/PHP-Project/assets/121793858/1ec39fee-ab7a-496c-ac30-4bfd525eeb9d)
+
 
 ## Register.php
-![image](https://user-images.githubusercontent.com/45972990/147565038-d10253d0-fc74-43d9-91cd-78499de42010.png)
+![r1](https://github.com/sonu2462/PHP-Project/assets/121793858/93508ff2-3e8d-4e57-a2a8-4c16cd6bde99)
+
 
 ## Login.php
-![image](https://user-images.githubusercontent.com/45972990/147565107-8d9bcdd0-34c6-40f1-a425-e7f120dd6cd3.png)
+![login](https://github.com/sonu2462/PHP-Project/assets/121793858/32003b89-d3de-41a3-8f89-46f7cb9c1a53)
+
 
 ## EnrolCourse.php
-![image](https://user-images.githubusercontent.com/45972990/147565149-8a3b8447-ac97-4f18-9c98-b727f85471c5.png)
+![enroled](https://github.com/sonu2462/PHP-Project/assets/121793858/13c08f10-5fa1-4770-9923-28dfa106fc27)
 
-![image](https://user-images.githubusercontent.com/45972990/147565227-70f23bda-76a7-4973-835b-6b08400f4493.png)
-# DataBases
-## Databade Structure 
-![image](https://user-images.githubusercontent.com/45972990/147565362-9206e485-ad17-4a22-850c-bd73ca9207fe.png)##
+![avail](https://github.com/sonu2462/PHP-Project/assets/121793858/3b68e867-8e2f-41b5-8424-30cefbb802cd)
 
 
 ## student Table
-![image](https://user-images.githubusercontent.com/45972990/147565540-91be85bd-baae-4dd9-9059-4779039d0c3a.png)
+![student_table](https://github.com/sonu2462/PHP-Project/assets/121793858/c2e6dbfd-dda4-42f6-a6c4-46235c90e3f6)
 
 ## available_course Table
-![image](https://user-images.githubusercontent.com/45972990/147565424-162e6e98-f6ce-4ebf-8b4f-806343700b8e.png)
+![available-table](https://github.com/sonu2462/PHP-Project/assets/121793858/7e656b87-539e-4877-be1e-c038a5387b87)
 
 ## Enroled_course Table 
-![image](https://user-images.githubusercontent.com/45972990/147565598-f867927a-9010-493d-bd50-4d513e187c9f.png)
+![en-table](https://github.com/sonu2462/PHP-Project/assets/121793858/47fedc37-61a6-4a06-93bc-cfc7465df8df)
